@@ -1,0 +1,275 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global */
+body{
+    font-family: 'Long Cang', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+   background-color:   #EEEEEE;;
+
+}
+
+.container{
+    display: block;
+    margin: auto;
+    /* max-width: 1100px; */
+   
+  
+}
+
+ header .logo {
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-family: 'Mynerve', cursive;
+    color: #F0F8FF;
+    padding: 1rem;
+
+}
+header .fa-solid {
+  color: rgb(246, 220, 91);
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: black;
+    
+}
+header ul{
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+header ul li{
+    padding: 1rem 1.3rem;
+    list-style: none;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 700 ;
+    border: none;
+    
+
+}
+header ul li a{
+    border: none;
+    text-decoration: none;
+    color: #F0F8FF;
+}
+header ul li a:hover{
+  color: rgb(246, 220, 91)}
+/* main */
+.section1{
+    height: 600px;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/frame.jpg) center center/cover;
+    
+}
+.section1 .contenu{
+    
+    max-width: 600px;
+    text-align: center;
+    padding: 1px;
+    color: white;
+    font-size: 1.6rem;
+
+}
+.section1 .contenu span{
+    color: rgb(246, 220, 91);
+}
+
+/* section2 */
+.section2{
+    margin-top: 2rem;
+}
+
+.section2 div h2{
+    text-align: center;
+    padding: 2rem;
+}
+.card {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: #FFFFFF;
+
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .section2{
+    margin: 10rem 1rem;
+  }
+
+  .section2 .serves{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 7rem;
+    color: #000000;
+  }
+  .serves .card div{
+    background-color: #FFFFFF;
+    height: 2px;
+    width: 50px;
+    margin: 1rem auto;
+  }
+
+  /*section3  */
+  .section3 {
+    margin: 2rem 4rem;
+    display: flex;
+    background-color:   #EEEEEE;
+    margin-top: 10rem ;
+  }
+
+  .section3 img{
+    width: 50%;
+    background-color:   #EEEEEE;
+    padding-bottom: 5px;
+  }
+  .section3 div {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    margin: 1rem 2rem;
+    line-height: 25px;
+    padding-top: 6rem;
+   
+    
+  }
+  .section3 div h3 span{
+    color: rgb(245, 214, 59);
+  }
+
+  /* section4 */
+  .section4{
+    margin-top: 10rem;
+  }
+  .section4 div h2{
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .review {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .section4 .review img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  span {
+    font-size: 24px;
+    margin-left: auto;
+    color: #FFC107;
+  }
+.review-element-profil img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.review-element{
+  flex: 1;
+  background: white;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+/* section5 */
+.contact{
+  margin: 2rem;
+  padding: 10rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1d1d1d;
+  color: white;
+  border-radius: 1rem;
+}
+.contact-form{
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.headline {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.contact-form input {
+  background: #1d1d1d;
+  border: 0;
+  border-bottom: 1px solid black;
+  
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  outline: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.contact-form button {
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 20px;
+  background: #f1c40f;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+footer {
+  Background: #333;
+  padding: 4rem 1rem;
+  color: lightgray;
+  text-align: center;
+}
+
+
+
